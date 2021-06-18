@@ -16,7 +16,7 @@ function ChangeButtonText() {
     return (
         <div>
             <h1>Task 2</h1>
-            <p>Click on the button and change the text</p>
+            <p>Click on the button and change the text from Foo to Bar to Baz</p>
             <button onClick={changeText}>{text}</button>
         </div>
     )

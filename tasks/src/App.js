@@ -1,6 +1,7 @@
 import ChangeColor from "./components/ChangeColor";
 import ChangeButtonText from "./components/ChangeButtonText";
 import ATM from "./components/ATM";
+import Boxes from "./Boxes";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <ChangeColor />
       <ChangeButtonText />
       <ATM />
+      <Boxes />
     </div>
   );
 }
