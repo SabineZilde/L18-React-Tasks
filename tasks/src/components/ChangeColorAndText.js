@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function ChangeColor() {
+function ChangeColorAndText() {
 
     const [text, setText] = useState('Foo');
     const [color, setColor] = useState('purple');
@@ -20,10 +20,11 @@ function ChangeColor() {
         <div>
             <h1>Task 1</h1>
             <p>Click on the button and change the text and color</p>
-            <h2 style={{color: color}}>{text}</h2>
+            <h2 style={{color}}>{text}</h2> 
+            {/* {{color}} = {{color: color}} */}
             <button onClick={changeText}>Click me</button>
         </div>
     )
 }
 
-export default ChangeColor;
+export default ChangeColorAndText;

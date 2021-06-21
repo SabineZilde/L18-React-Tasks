@@ -1,0 +1,11 @@
+.blue-box {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    margin: 3px;
+}
+
+.box-wraper {
+    display: flex;
+    margin-bottom: 10px;
+}
